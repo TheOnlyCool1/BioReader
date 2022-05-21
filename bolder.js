@@ -7,6 +7,11 @@ chrome.action.onClicked.addListener((tab) => {
     }
 });
 
+//Useful resources:
+    //Chrome extension API: https://developer.chrome.com/docs/extensions/mv3/getstarted/
+    //HTML DOM Documents: https://www.w3schools.com/jsref/dom_obj_document.asp
+    //Bionic Reading Demonstration: https://www.w3schools.com/jsref/dom_obj_document.asp
+
 function bionicPage() {
     let div = document.getElementsByTagName("p");
     //Maybe search with more tags like "div" and not just "p"
