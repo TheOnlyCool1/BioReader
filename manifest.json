@@ -1,0 +1,14 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "Page Font Bolder",
+    "description": "Make the page font bolder",
+    "version": "1.1",
+    "permissions": [
+       "webNavigation", "scripting", "activeTab"
+    ],
+    "background": {
+        "service_worker": "bolder.js"
+    },
+    "manifest_version": 3
+}
