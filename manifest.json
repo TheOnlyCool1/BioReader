@@ -1,12 +1,18 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
 
-    "name": "Page Font Bolder",
-    "description": "Make the page font bolder",
-    "version": "1.1",
+    "name": "BioReader",
+    "description": "Applies Bionic Reading to a page",
+    "version": "0.0",
     "permissions": [
-       "webNavigation", "scripting", "activeTab"
+        "webNavigation",
+        "scripting",
+        "activeTab",
+        "tabs",
+        "memory"
     ],
+    "action": {
+        "default_title":  "Click to enable for this page."
+    },
     "background": {
         "service_worker": "bolder.js"
     },
