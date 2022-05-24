@@ -7,14 +7,13 @@
         "webNavigation",
         "scripting",
         "activeTab",
-        "tabs",
-        "memory"
+        "tabs"
     ],
     "action": {
         "default_title":  "Click to enable for this page."
     },
     "background": {
-        "service_worker": "bolder.js"
+        "service_worker": "bioreader.js"
     },
     "manifest_version": 3
 }
